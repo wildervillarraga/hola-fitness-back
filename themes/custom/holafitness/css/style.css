@@ -2,3 +2,8 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+.footer {
+  padding-top: 6em;
+  background: #25282a;
+  color: rgba(255, 255, 255, 0.6);
+}
