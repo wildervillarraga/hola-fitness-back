@@ -163,33 +163,35 @@
   {% block footer %}
     <footer class="footer" role="contentinfo">
       
-      <div class="row">
-        {# Footer Column 1 #}
-        {% if page.footer_col1 %}
-          {% block footer_col1 %}
-            <aside class="col-sm-6" role="complementary">
-              {{ page.footer_col1 }}
-            </aside>
-          {% endblock %}
-        {% endif %}
-        
-        {# Footer Column 2 #}
-        {% if page.footer_col2 %}
-          {% block footer_col2 %}
-            <aside class="col-sm-3" role="complementary">
-              {{ page.footer_col2 }}
-            </aside>
-          {% endblock %}
-        {% endif %}
-        
-        {# Footer Column 3 #}
-        {% if page.footer_col3 %}
-          {% block footer_col3 %}
-            <aside class="col-sm-3" role="complementary">
-              {{ page.footer_col3 }}
-            </aside>
-          {% endblock %}
-        {% endif %}
+      <div class="{{ container }}">
+        <div class="row">
+          {# Footer Column 1 #}
+          {% if page.footer_col1 %}
+            {% block footer_col1 %}
+              <aside class="col-sm-6" role="complementary">
+                {{ page.footer_col1 }}
+              </aside>
+            {% endblock %}
+          {% endif %}
+
+          {# Footer Column 2 #}
+          {% if page.footer_col2 %}
+            {% block footer_col2 %}
+              <aside class="col-sm-3" role="complementary">
+                {{ page.footer_col2 }}
+              </aside>
+            {% endblock %}
+          {% endif %}
+
+          {# Footer Column 3 #}
+          {% if page.footer_col3 %}
+            {% block footer_col3 %}
+              <aside class="col-sm-3" role="complementary">
+                {{ page.footer_col3 }}
+              </aside>
+            {% endblock %}
+          {% endif %}
+        </div>
       </div>
       
       {{ page.footer }}
