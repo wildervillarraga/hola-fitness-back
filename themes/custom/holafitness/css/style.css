@@ -10,7 +10,8 @@
   background: #25282a;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer .block-title {
+.footer .block-title,
+.footer #block-holafitness-footer-menu {
   margin-bottom: 30px;
   font-size: 13px;
   color: #e6e6e6;
@@ -21,11 +22,16 @@
   font-size: 14px;
   line-height: 1.8;
 }
+.footer img {
+  display: initial;
+}
 .footer .block {
   margin-bottom: 10px;
 }
+.footer .view-contact-info .views-row {
+  margin-bottom: 12px;
+}
 .footer .view-contact-info img {
   width: 20px;
-  float: left;
   margin-right: 5px;
 }
