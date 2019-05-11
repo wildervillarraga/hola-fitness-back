@@ -2,8 +2,20 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
+body {
+  margin-top: 0;
+}
 .fc-white {
   color: #FFF;
+}
+#navbar {
+  
+}
+#navbar .navbar-header {
+  float: right;
+}
+.name.navbar-brand {
+  display: none;
 }
 .footer {
   padding-top: 6em;
