@@ -122,9 +122,10 @@ body.navbar-is-fixed-top {
   margin-top: 30px;
 }
 .view-contact-info .contact-info-row {
-  background: #f2f3f7;
-  text-align: center;
   padding: 20px 10px;
+}
+.bk-color {
+  background: #f2f3f7;
 }
 .view-contact-info .contact-info-row img {
   display: inline;
