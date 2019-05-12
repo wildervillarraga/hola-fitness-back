@@ -91,9 +91,10 @@ body.navbar-is-fixed-top {
   width: 33.33%;
 }
 .view-classes .class-top-fields {
-  
+  text-align: center;
+  margin-top: -150px;
 }
-.view-classes .views-field-title {
+.view-classes .views-field-title a {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
