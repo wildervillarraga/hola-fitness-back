@@ -83,8 +83,9 @@ body.navbar-is-fixed-top {
   z-index: 1;
 }
 .view-classes .view-content {
-  
+  width: 100%;
+  display: flex;
 }
 .view-classes .views-row {
-  
+  width: 33.33%;
 }
