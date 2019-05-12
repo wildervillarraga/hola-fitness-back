@@ -118,6 +118,9 @@ body.navbar-is-fixed-top {
   text-transform: uppercase;
   color: #000;
 }
+.view-contact-info.view-display-id-block_2 {
+  margin-top: 30px;
+}
 .view-contact-info .contact-info-row {
   background: #f2f3f7;
   text-align: center;
@@ -125,4 +128,9 @@ body.navbar-is-fixed-top {
 }
 .view-contact-info .contact-info-row img {
   display: inline;
+  width: 25px;
+  margin-right: 5px;
+}
+.view-contact-info .contact-info-row a {
+  color: #000;
 }
