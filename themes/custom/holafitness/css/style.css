@@ -110,4 +110,11 @@ body.navbar-is-fixed-top {
   font-weight: 300;
   font-size: 17px;
   line-height: 1.5;
+  margin: 15px 15px 0;
+}
+.path-frontpage .region-content .field--name-body h1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000;
 }
