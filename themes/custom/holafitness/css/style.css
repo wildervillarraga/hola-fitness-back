@@ -4,6 +4,12 @@
  */
 body {
   margin-top: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.5;
+  color: gray;
+  background: #fff;
 }
 body.navbar-is-fixed-top {
   margin-top: 0;
@@ -101,4 +107,7 @@ body.navbar-is-fixed-top {
 }
 .view-classes .views-field-body {
   color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.5;
 }
