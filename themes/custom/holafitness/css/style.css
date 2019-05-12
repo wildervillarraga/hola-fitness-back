@@ -78,3 +78,18 @@ body.navbar-is-fixed-top {
   opacity: .8;
   color: #FFF;
 }
+.block-views-blockclasses-block-1 {
+  margin-top: -5em;
+  z-index: 1;
+}
+.view-classes .view-content {
+  width: 100%;
+  display: flex;
+}
+.view-classes .views-row {
+  width: 33.33%;
+  padding: 2em 2em 4em 2em;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
