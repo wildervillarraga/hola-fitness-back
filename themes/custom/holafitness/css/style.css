@@ -50,3 +50,24 @@ body {
 .footer a {
   color: rgba(255, 255, 255, 0.9);
 }
+.flexslider {
+  border: none;
+}
+.view-slide-hero .slides {
+  text-align: center
+}
+.container-hero-fields {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-hero-fields .views-field-body {
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 900;
+  text-transform: uppercase;
+  opacity: .8;
+  color: #FFF;
+}
