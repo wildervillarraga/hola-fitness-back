@@ -118,3 +118,6 @@ body.navbar-is-fixed-top {
   text-transform: uppercase;
   color: #000;
 }
+.view-contact-info .views-row .contact-info-row {
+  background: #f2f3f7;
+}
