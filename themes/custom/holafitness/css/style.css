@@ -79,8 +79,9 @@ body.navbar-is-fixed-top {
   color: #FFF;
 }
 .block-views-blockclasses-block-1 {
-  margin-top: -5em;
-  z-index: 1;
+  margin-top: -8em;
+  z-index: 10;
+  position: relative;
 }
 .view-classes .view-content {
   width: 100%;
@@ -88,4 +89,15 @@ body.navbar-is-fixed-top {
 }
 .view-classes .views-row {
   width: 33.33%;
+}
+.view-classes .class-top-fields {
+  
+}
+.view-classes .views-field-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.view-classes .views-field-body {
+  color: rgba(255, 255, 255, 0.8);
 }
