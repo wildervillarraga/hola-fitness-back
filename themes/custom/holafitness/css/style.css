@@ -174,3 +174,27 @@ a.logo img {
   text-transform: uppercase;
   color: #FFF;
 }
+.field--name-field-class {
+  background: #1E2022;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+.field--name-field-class .field--label {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.field--name-field-class .field--item {
+  margin-bottom: 2px;
+}
+.field--name-field-class .field {
+  font-size: 15px;
+  display: inline;
+}
+.field--name-field-class .field--name-field-label {
+}
+.field--name-field-class .field--name-field-text {
+  color: rgba(255, 255, 255, 0.8);
+}
