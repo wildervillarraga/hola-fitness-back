@@ -7,10 +7,10 @@ use Drupal\webform\Utility\WebformFormHelper;
  * Implements hook_form_FORM_ID_alter().
  */
 function portal_form_webform_submission_book_class_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
-  // Flattening the elements makes it much easier to access nested elements.
-  $elements = &WebformFormHelper::flattenElements($form['elements']);
-  dpm($elements['class'], '$element');
-  
   $nid = \Drupal::routeMatch()->getRawParameter('node');
-  dpm($nid, '$nid'); 
+  if(!empty($nid)) {
+    $elements = &WebformFormHelper::flattenElements($form['elements']);
+    dpm($elements['class'], '$element');
+    $elements['class']['#default_value'] = $nid;
+  }
 }
