@@ -1,0 +1,8 @@
+name: Portal
+type: module
+description: apply the general functionality
+package: HormigaSoft
+# core: 8.x
+
+version: '8.x-1'
+core: '8.x'
