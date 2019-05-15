@@ -70,6 +70,11 @@ a.logo img {
 .footer a {
   color: rgba(255, 255, 255, 0.9);
 }
+.btn-primary {
+  background: #DC2F2F;
+  color: #fff;
+  border: 2px solid #DC2F2F;
+}
 .flexslider {
   border: none;
 }
@@ -203,4 +208,14 @@ a.logo img {
     background: #e04545;
     padding: 2em;
     margin-bottom: 3em;
+}
+.field--name-dynamic-block-fieldnode-book-class .block-webform-block {
+  background: #1E2022;
+  padding: 1em;
+}
+.field--name-dynamic-block-fieldnode-book-class .form-actions {
+  text-align: center;
+}
+.field--name-dynamic-block-fieldnode-book-class .btn-primary {
+  padding: 1em 3m;
 }
