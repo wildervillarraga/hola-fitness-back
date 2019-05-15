@@ -1,6 +1,6 @@
 name: Portal
 type: module
-description: apply the general functionality
+description: Provides general functionality
 package: HormigaSoft
 # core: 8.x
 

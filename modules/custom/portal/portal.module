@@ -7,9 +7,16 @@ use Drupal\webform\Utility\WebformFormHelper;
 /**
  * Implements hook_form_FORM_ID_alter().
  */
-function portal_form_webform_submission_contact_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+function portal_form_webform_submission_book_class_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
   // Flattening the elements makes it much easier to access nested elements.
   $elements = &WebformFormHelper::flattenElements($form['elements']);
   dpm($elements, '$elements');
   
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function portal_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  dpm($form_id, '$form_id');
 }
