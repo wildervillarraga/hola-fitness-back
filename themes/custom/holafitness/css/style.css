@@ -74,6 +74,7 @@ a.logo img {
   background: #DC2F2F;
   color: #fff;
   border: 2px solid #DC2F2F;
+  border-radius: 30px;
 }
 .flexslider {
   border: none;
@@ -215,7 +216,9 @@ a.logo img {
 }
 .field--name-dynamic-block-fieldnode-book-class .form-actions {
   text-align: center;
+  margin-bottom: 0;
+  margin-top: 40px;
 }
 .field--name-dynamic-block-fieldnode-book-class .btn-primary {
-  padding: 1em 3m;
+  padding: 1em 5em;
 }
