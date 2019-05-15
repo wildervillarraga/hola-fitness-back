@@ -1,6 +1,5 @@
 <?php
 
-use Drupal\Core\Render\Element;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\webform\Utility\WebformFormHelper;
 
@@ -9,7 +8,7 @@ use Drupal\webform\Utility\WebformFormHelper;
  */
 function portal_form_webform_submission_book_class_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
   $nid = \Drupal::routeMatch()->getRawParameter('node');
-  if(!empty($nid)) {
+  if(!empty($nid)  &&  isset($form['elements'])) {
     $elements = &WebformFormHelper::flattenElements($form['elements']);
     $elements['class']['#default_value'] = $nid;
     $elements['class']['#access'] = FALSE;
