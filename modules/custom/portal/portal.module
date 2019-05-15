@@ -10,7 +10,7 @@ function portal_form_webform_submission_book_class_form_alter(array &$form, Form
   $nid = \Drupal::routeMatch()->getRawParameter('node');
   if(!empty($nid)) {
     $elements = &WebformFormHelper::flattenElements($form['elements']);
-    dpm($elements['class'], '$element');
     $elements['class']['#default_value'] = $nid;
+    $elements['class']['#access'] = FALSE;
   }
 }
