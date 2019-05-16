@@ -1,8 +1,12 @@
 framework:
   css:
     theme:
-      css/style.css: {}
       '//fonts.googleapis.com/css?family=Poppins:300,400,500,700,900': { type: external, minified: true }
+      css/style.css: {}
+      css/animate.css: {}
+  js:
+    js/jquery.waypoints.min.js: {}
+    js/main.js: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
