@@ -20,5 +20,5 @@ function portal_form_webform_submission_book_class_form_alter(array &$form, Form
  */
 function portal_preprocess_views_view_fields(&$vars) {
 //  $view = $vars['view'];
-  dpm($vars);
+//  dpm($vars);
 }
