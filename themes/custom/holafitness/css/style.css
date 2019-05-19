@@ -162,6 +162,9 @@ a.logo img {
 #block-views-block-classes-block-2 {
   margin-top: 50px;
 }
+.view-classes.view-display-id-block_2 .views-row {
+  padding-bottom: 20px;
+}
 .view-class-info {
   text-align: center;
   padding: 20px 10px;
@@ -170,7 +173,7 @@ a.logo img {
 .view-class-info img {
   display: inline;
 }
-.view-class-info .views-field-title a {
+.view-class-info .views-field-title {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
