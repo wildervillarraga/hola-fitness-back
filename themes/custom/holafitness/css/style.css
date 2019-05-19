@@ -106,12 +106,14 @@ a.logo img {
   width: 100%;
   display: block;
 }
-
 .view-classes .class-top-fields {
   text-align: center;
   margin-top: -150px;
 }
-.view-classes .views-field-title a {
+.view-classes .class-top-fields:hover {
+  color: #fff;
+}
+.view-classes .views-field-title {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -122,6 +124,9 @@ a.logo img {
   font-size: 17px;
   line-height: 1.5;
   margin: 15px 15px 0;
+}
+.view-classes .class-top-fields:hover .views-field-body {
+  text-decoration: none;
 }
 .path-frontpage .region-content .field--name-body h1 {
   font-size: 30px;
