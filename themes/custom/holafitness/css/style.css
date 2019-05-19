@@ -141,15 +141,12 @@ a.logo img {
 }
 .view-contact-info.view-display-id-block_2 {
   margin-top: 30px;
-  padding: 0 50px;
 }
 .view-contact-info.view-display-id-block_2 .views-row {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-bottom: 10px;
 }
 .view-contact-info .contact-info-row {
   padding: 20px 10px;
-  text-align: center;
 }
 .bk-color {
   background: #f2f3f7;
@@ -246,6 +243,15 @@ a.logo img {
   }
   .view-classes .views-field-title {
     font-size: 30px;
+  }
+  .view-contact-info.view-display-id-block_2 {
+    padding: 0 50px;
+  }
+  .view-contact-info.view-display-id-block_2 .views-row {
+    padding: 0 5px 10px;
+  }
+  .view-contact-info .contact-info-row {
+    text-align: center;
   }
 }
 
