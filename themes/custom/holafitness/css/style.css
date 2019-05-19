@@ -102,13 +102,17 @@ a.logo img {
   z-index: 10;
   position: relative;
 }
+.view-classes .views-row {
+  position: relative;
+}
 .view-classes .view-content {
   width: 100%;
   display: block;
 }
 .view-classes .class-top-fields {
   text-align: center;
-  margin-top: -150px;
+  position: absolute;
+  top: 25px;
 }
 .view-classes .class-top-fields:hover {
   color: #fff;
@@ -235,6 +239,9 @@ a.logo img {
   .view-classes .view-content {
     width: 100%;
     display: flex;
+  }
+  .view-classes .class-top-fields {
+    top: 50px;
   }
 }
 
