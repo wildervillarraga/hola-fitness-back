@@ -32,7 +32,6 @@
  */
 #}
 {% set node_path = fields['view_node'].content %}
-{% set fields['view_node'] = {} %}
 <a href="{{ fields['view_node'].content }}">
   {% for field in fields -%}
     {%- if field.content -%}
