@@ -51,6 +51,7 @@ a.logo img {
 .navbar-default .navbar-toggle {
   border: none;
   z-index: 12000;
+  margin-right: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #DC2F2F;
@@ -60,9 +61,6 @@ a.logo img {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-	-webkit-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
-	transform-origin: 10% 10%;
 }
 .navbar-default .navbar-toggle .icon-bar:nth-of-type(3) {
 	opacity: 0;
@@ -86,9 +84,9 @@ a.logo img {
 	filter: alpha(opacity=1);
 }
 .navbar-default .navbar-toggle.collapsed .icon-bar:nth-of-type(4) {
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
 	-webkit-transform-origin: 10% 90%;
 	-ms-transform-origin: 10% 90%;
 	transform-origin: 10% 90%;
