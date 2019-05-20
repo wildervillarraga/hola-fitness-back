@@ -18,7 +18,7 @@ body.navbar-is-fixed-top {
   color: #FFF;
 }
 #navbar {
-  
+  z-index: 10000;
 }
 #navbar .navbar-header {
   float: right;
@@ -167,6 +167,9 @@ a.logo img {
 }
 .view-classes.view-display-id-block_2 .views-row {
   padding-bottom: 20px;
+}
+.view-classes.view-display-id-block_2 .views-field-body {
+  color: gray;
 }
 .view-class-info {
   text-align: center;
