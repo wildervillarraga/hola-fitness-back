@@ -28,11 +28,14 @@ body.navbar-is-fixed-top {
   background-color: rgba(255, 255, 255, 0.6);
   margin: 0;
 }
+.navbar .logo {
+  padding: 0;
+}
 a.logo {
   margin: 0;
 }
 a.logo img {
-  width: 92px;
+  width: 80px;
 }
 .name.navbar-brand {
   display: none;
@@ -234,6 +237,9 @@ a.logo img {
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  a.logo img {
+    width: 92px;
+  }
   .view-classes .views-row {
     width: 33.33%;
   }
@@ -255,6 +261,12 @@ a.logo img {
   }
   .view-contact-info .contact-info-row {
     text-align: center;
+  }
+  #navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }
 }
 
