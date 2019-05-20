@@ -57,13 +57,35 @@ a.logo img {
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
+.navbar-default .navbar-toggle.collapsed {
+  
+}
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(2) {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;
+	transform-origin: 10% 10%;
+}
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(3) {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(4) {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 10% 90%;
+	-ms-transform-origin: 10% 90%;
+	transform-origin: 10% 90%;
+}
 #navbar-collapse {
   border: none;
   background: #1a1a1a;
   z-index: 1000;
   overflow-y: auto;
   display: block;
-  height: 100%;
   transition: 0.5s;
   width: 100%;
   position: absolute;
