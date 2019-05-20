@@ -50,20 +50,21 @@ a.logo img {
 
 .navbar-default .navbar-toggle {
   border: none;
+  z-index: 12000;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
+  background-color: #000;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #DC2F2F;
 }
 #navbar-collapse {
   border: none;
   background: #1a1a1a;
   padding: 75px 40px 40px 40px;
-  position: absolute;
   z-index: 1901;
-  width: 270px;
-  right: 0;
-  top: 0;
-  bottom: 0;
   overflow-y: auto;
   display: block;
   height: 100%;
