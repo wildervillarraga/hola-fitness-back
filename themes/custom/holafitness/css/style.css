@@ -55,11 +55,7 @@ a.logo img {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #DC2F2F;
 }
-.navbar-default .navbar-toggle.collapsed {
-	-webkit-transition: all 0.2s;
-	transition: all 0.2s;
-}
-.navbar-default .navbar-toggle.collapsed .icon-bar:nth-of-type(2) {
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(2) {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -67,11 +63,11 @@ a.logo img {
 	-ms-transform-origin: 10% 10%;
 	transform-origin: 10% 10%;
 }
-.navbar-default .navbar-toggle.collapsed .icon-bar:nth-of-type(3) {
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(3) {
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
-.navbar-default .navbar-toggle.collapsed .icon-bar:nth-of-type(4) {
+.navbar-default .navbar-toggle .icon-bar:nth-of-type(4) {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
@@ -84,10 +80,10 @@ a.logo img {
   background: #1a1a1a;
   z-index: 1000;
   overflow-y: auto;
-  display: block;
   transition: 0.5s;
   width: 100%;
   position: absolute;
+  height: 0
 }
 .footer {
   padding-top: 6em;
