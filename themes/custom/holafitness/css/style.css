@@ -312,7 +312,7 @@ a.logo img {
   }
   #navbar-collapse {
     background: none;
-    width: 100%;
+    width: auto;
     position: initial;
   }
   .view-classes .views-row {
