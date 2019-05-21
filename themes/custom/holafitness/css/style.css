@@ -108,6 +108,20 @@ a.logo img {
   width: 100%;
   position: absolute;
 }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #DC2F2F;
+  background-color: transparent;
+}
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+h3 a {
+  color: #000;
+}
 .footer {
   padding-top: 6em;
   background: #25282a;
