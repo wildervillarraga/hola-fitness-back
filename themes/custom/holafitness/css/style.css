@@ -56,6 +56,8 @@ a.logo img {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #DC2F2F;
   transform: none;
+  -webkit-transition: all 0.2s;
+	transition: all 0.2s;
 }
 .navbar-default .navbar-toggle .icon-bar:nth-of-type(2) {
 	-webkit-transform: rotate(45deg);
@@ -303,11 +305,15 @@ a.logo img {
   padding: 1em 5em;
 }
 
-
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   a.logo img {
     width: 92px;
+  }
+  #navbar-collapse {
+    background: none;
+    width: 100%;
+    position: initial;
   }
   .view-classes .views-row {
     width: 33.33%;
