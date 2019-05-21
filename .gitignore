@@ -46,6 +46,3 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
-
-# Ignore cpanel.
-.cpanel.yml
