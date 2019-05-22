@@ -1,1 +1,1 @@
----deployment: tasks:  - export DEPLOYPATH=/home2/holafitn/public_html/  - /bin/cp -a * $DEPLOYPATH
+---deployment:  tasks:    - export DEPLOYPATH=/home/holafitn/public_html    - /bin cp * $DEPLOYPATH    - /bin/cp -r * $DEPLOYPATH
