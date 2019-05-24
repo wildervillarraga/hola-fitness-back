@@ -329,7 +329,7 @@ h2 a {
 .view-classes-page .views-row {
   margin-bottom: 20px;
 }
-.field--name-field-tags .field--label {
+.node--view-mode-full .field--label {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
