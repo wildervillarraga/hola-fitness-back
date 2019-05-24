@@ -402,6 +402,9 @@ h2 a {
     flex-grow: 1;
     width: 50%;
   }
+  .form-inline .form-control {
+    width: 100%;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
