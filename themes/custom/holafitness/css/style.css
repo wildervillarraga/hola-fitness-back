@@ -279,6 +279,12 @@ h2 a {
 .node--view-mode-full .field {
   margin-bottom: 3em;
 }
+.node--view-mode-full .field--name-node-title {
+  margin-bottom: 1em;
+}
+.node--view-mode-full .field--name-node-title h2 {
+  color: #000;
+}
 .field--name-field-class {
   background: #1E2022;
   padding: 2em;
@@ -329,6 +335,14 @@ h2 a {
   font-weight: 700;
   color: #000;
 }
+.field--name-field-tags .field--items {
+	display: flex;
+	flex-wrap: wrap;
+}
+.field--name-field-tags .field--items .field--item {
+	flex-grow: 1;
+	width: 100%;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -370,6 +384,10 @@ h2 a {
   }
   .container-hero-fields .views-field-body {
     font-size: 50px;
+  }
+  .field--name-field-tags .field--items .field--item {
+    flex-grow: 1;
+    width: 50%;
   }
 }
 
