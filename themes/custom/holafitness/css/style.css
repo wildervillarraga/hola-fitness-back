@@ -334,6 +334,7 @@ h2 a {
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
+  margin-bottom: 15px;
 }
 .field--name-field-tags .field--items {
 	display: flex;
@@ -342,6 +343,18 @@ h2 a {
 .field--name-field-tags .field--items .field--item {
 	flex-grow: 1;
 	width: 100%;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.field--name-field-tags .field--items .field--item .glyphicon-ok {
+  color: #fff;
+  margin-right: 8px;
+  background: #DC2F2F;
+  padding: 10px;
+  font-size: 15px;
 }
 
 /* Small devices (tablets, 768px and up) */
