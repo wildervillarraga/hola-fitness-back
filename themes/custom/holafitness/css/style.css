@@ -325,12 +325,12 @@ h2 a {
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   a.logo img {
-    width: 92px;
+    width: 120px;
   }
   #navbar-collapse {
     background: none;
     width: auto;
-    position: initial;
+    position: relative;
   }
   .view-classes .views-row {
     width: 33.33%;
@@ -372,5 +372,7 @@ h2 a {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  
+  a.logo img {
+    width: 120px;
+  }
 }
