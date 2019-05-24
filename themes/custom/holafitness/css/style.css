@@ -140,7 +140,7 @@ h2 a {
   line-height: 1.8;
 }
 .footer img {
-  display: initial;
+  display: inline;
 }
 .footer .block {
   margin-bottom: 15px;
@@ -320,6 +320,11 @@ h2 a {
 }
 .view-classes-page .views-row {
   margin-bottom: 20px;
+}
+.field--name-field-tags .field--label {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /* Small devices (tablets, 768px and up) */
