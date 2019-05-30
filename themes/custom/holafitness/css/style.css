@@ -359,6 +359,16 @@ h2 a:hover, a:focus {
   padding: 10px;
   font-size: 15px;
 }
+#block-views-block-page-title-block-1 {
+  background: #000;
+  padding-top: 90px;
+}
+.view-id-page_title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 30px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
