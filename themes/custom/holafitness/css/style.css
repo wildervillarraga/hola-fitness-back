@@ -378,6 +378,8 @@ h2 a:hover, a:focus {
 }
 .view-articles .views-field-title {
   margin-top: 0;
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 .view-articles .views-field-title a {
   color: #333333;
