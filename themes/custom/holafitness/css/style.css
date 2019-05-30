@@ -361,16 +361,16 @@ h2 a:hover, a:focus {
 }
 #block-views-block-page-title-block-1 {
   background: #000;
-  padding-top: 90px;
+  padding-top: 45px;
 }
 .view-id-page_title h1 {
   text-align: center;
   text-transform: uppercase;
   color: #FFF;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .media-oembed-content {
-  height: 570px;
+  height: 345px;
   width: 100%;
 }
 .view-articles .other-fields {
@@ -435,6 +435,15 @@ h2 a:hover, a:focus {
   }
   .form-inline .form-control {
     width: 100%;
+  }
+  #block-views-block-page-title-block-1 {
+    padding-top: 90px;
+  }
+  .view-id-page_title h1 {
+    margin-bottom: 30px;
+  }
+  .media-oembed-content {
+    height: 570px;
   }
 }
 
