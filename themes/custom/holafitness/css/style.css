@@ -369,6 +369,10 @@ h2 a:hover, a:focus {
   color: #FFF;
   margin-bottom: 30px;
 }
+.media-oembed-content {
+  height: 570px;
+  width: 100%;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
