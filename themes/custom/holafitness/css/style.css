@@ -373,6 +373,18 @@ h2 a:hover, a:focus {
   height: 570px;
   width: 100%;
 }
+.view-articles .other-fields {
+  padding-left: 0;
+}
+.view-articles .views-field-title {
+  margin-top: 0;
+}
+.view-articles .views-field-title a {
+  color: #333333;
+}
+.view-articles .views-field-body {
+  font-size: 14px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
