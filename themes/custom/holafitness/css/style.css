@@ -39,6 +39,10 @@ body.navbar-is-fixed-top {
 .navbar .logo {
   padding: 0;
 }
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+  font-weight: 400;
+}
 a.logo {
   margin: 0;
 }
