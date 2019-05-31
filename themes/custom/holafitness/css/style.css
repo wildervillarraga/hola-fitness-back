@@ -471,9 +471,6 @@ h2 a:hover, a:focus {
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  .view-classes .class-top-fields {
-    top: 100px;
-  }
   .view-classes .views-field-title {
     font-size: 30px;
   }
@@ -485,6 +482,9 @@ h2 a:hover, a:focus {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+  .view-classes .class-top-fields {
+    top: 100px;
+  }
   a.logo img {
     width: 120px;
   }
