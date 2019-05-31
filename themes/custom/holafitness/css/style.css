@@ -17,6 +17,10 @@ body.navbar-is-fixed-top {
 .fc-white {
   color: #FFF;
 }
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
 #navbar {
   z-index: 10000;
 }
@@ -397,6 +401,7 @@ h2 a:hover, a:focus {
     background: none;
     width: auto;
     position: relative;
+    margin-left: auto;
   }
   .view-classes .views-row {
     width: 33.33%;
@@ -444,6 +449,9 @@ h2 a:hover, a:focus {
   }
   .media-oembed-content {
     height: 570px;
+  }
+  .navbar-nav li.last > a {
+    padding-right: 0;
   }
 }
 
