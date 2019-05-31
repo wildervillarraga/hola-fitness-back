@@ -421,10 +421,10 @@ h2 a:hover, a:focus {
     display: flex;
   }
   .view-classes .class-top-fields {
-    top: 100px;
+    top: 40px;
   }
   .view-classes .views-field-title {
-    font-size: 30px;
+    font-size: 22px;
   }
   .view-contact-info.view-display-id-block_2 {
     padding: 0 50px;
@@ -463,11 +463,24 @@ h2 a:hover, a:focus {
   .navbar-nav li.last > a {
     padding-right: 0;
   }
+  .view-classes .views-field-body {
+    font-size: 14px;
+    line-height: 1.3;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  
+  .view-classes .class-top-fields {
+    top: 100px;
+  }
+  .view-classes .views-field-title {
+    font-size: 30px;
+  }
+  .view-classes .views-field-body {
+    font-size: 17px;
+    line-height: 1.5;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
