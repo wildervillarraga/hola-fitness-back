@@ -53,7 +53,6 @@ a.logo img {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: transparent;
-  margin-right: 0;
 }
 .navbar-default .navbar-toggle {
   border: none;
@@ -412,7 +411,7 @@ h2 a:hover, a:focus {
     margin-left: auto;
   }
   .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
   }
   .view-classes .views-row {
     width: 33.33%;
