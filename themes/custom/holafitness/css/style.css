@@ -57,8 +57,7 @@ a.logo img {
 }
 .navbar-default .navbar-toggle {
   border: none;
-  z-index: 12000;
-  margin-right: 0;
+  z-index: 1200;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #DC2F2F;
